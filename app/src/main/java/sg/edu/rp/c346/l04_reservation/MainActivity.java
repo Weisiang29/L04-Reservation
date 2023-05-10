@@ -99,6 +99,20 @@ RadioButton smoke,nonsmoke;
                 }
             }
         });
+        reset.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                tp.setHour(19);
+                tp.setMinute(30);
+                dp.updateDate(2020,5,1);
+                username.setText("");
+                userpax.setText("");
+                userphone.setText("");
+                address.setChecked(false);
+                nonsmoke.setChecked(true);
+
+            }
+        });
 
 
 
