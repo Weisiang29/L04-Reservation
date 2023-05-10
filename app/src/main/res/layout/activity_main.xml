@@ -55,7 +55,7 @@
                             android:layout_width="match_parent"
                             android:id="@+id/name"
                             android:layout_height="wrap_content"
-                            android:hint="name"/>
+                            android:hint="@string/name"/>
 
                     </com.google.android.material.textfield.TextInputLayout>
 
@@ -75,7 +75,7 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/phones"
                     android:inputType="numberDecimal"
-                    android:hint="phone"/>
+                    android:hint="@string/phone"/>
 
 
             </com.google.android.material.textfield.TextInputLayout>
@@ -91,7 +91,7 @@
                     android:layout_marginTop="30px"
                     android:inputType="numberDecimal"
                     android:id="@+id/paxs"
-                    android:hint="pax"/>
+                    android:hint="@string/pax"/>
 
 
             </com.google.android.material.textfield.TextInputLayout>
@@ -111,13 +111,13 @@
                         android:id="@+id/nonsmoke"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="non-smoking area"
+                        android:text="@string/nonsmoking"
                         android:checked="true"></RadioButton>
                     <RadioButton
                         android:id="@+id/smoke"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="smoking area"></RadioButton>
+                        android:text="@string/smoking"></RadioButton>
 
 
 
@@ -132,9 +132,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20px"
-                android:layout_marginRight="20px"
                 android:layout_marginTop="20px"
-                ></DatePicker>
+                android:layout_marginRight="20px"></DatePicker>
+
             <TimePicker
                 android:id="@+id/timepicker"
                 android:layout_width="match_parent"
@@ -148,14 +148,14 @@
                 android:id="@+id/comfirm1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Confirm"
+                android:text="@string/comfirm"
                 android:layout_gravity="center"
                ></Button>
                 <Button
                     android:id="@+id/reset1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Reset"
+                    android:text="@string/reset"
                     android:layout_gravity="center"
                     ></Button>
 

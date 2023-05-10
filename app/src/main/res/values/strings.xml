@@ -1,5 +1,11 @@
 <resources>
     <string name="app_name">L04-Reservation</string>
+    <string name="pax">pax</string>
+    <string name="name">name</string>
     <string name="phone">phone</string>
+    <string name="nonsmoking">non-smoking area</string>
+    <string name="smoking">smoking area</string>
+    <string name="comfirm">Comfirm</string>
+    <string name="reset">reset</string>
 
 </resources>
